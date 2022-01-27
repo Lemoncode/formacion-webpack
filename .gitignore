@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.awcache
+test-report.*
+junit.xml
+*.log
+*.orig
+*.tmp
+package-lock.json
+yarn.lock
+.awcache
+.next
+.DS_Store
