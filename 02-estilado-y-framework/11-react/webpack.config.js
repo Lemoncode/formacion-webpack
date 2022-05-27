@@ -57,5 +57,10 @@ module.exports = {
   ],
   devServer: {
     port: 8080,
+    open: true,
+    hot: true,
+    static: {
+      directory: path.join(__dirname, "src"),
+    },
   },
 };
